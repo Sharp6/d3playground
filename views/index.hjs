@@ -3,9 +3,15 @@
   <head>
     <title>{{ title }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/libraries/d3.min.js"></script>
   </head>
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
+    <p>D3</p>
+    <p>Possibly interesting article on D3 and knockout: http://sett.ociweb.com/sett/settFeb2014.html</p>
+    
+    <script src="/javascripts/drawings.js"></script>
+    
   </body>
 </html>
