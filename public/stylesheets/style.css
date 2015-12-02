@@ -6,3 +6,28 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+text {
+	font-family: sans-serif;
+	font-size: 10px;
+	fill: #666666;
+}
