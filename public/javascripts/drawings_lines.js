@@ -68,6 +68,5 @@ d3.json("http://runmonitor.herokuapp.com/activities", function(err, data) {
 		showHeader(data);
 		buildLine(data);
 	}
-
 });
 
