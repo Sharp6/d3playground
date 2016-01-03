@@ -8,14 +8,14 @@ a {
 }
 
 
-.axis path,
-.axis line {
+.x-axis path, .y-axis path,
+.x-axis line, .y-axis line {
 	fill: none;
 	stroke: black;
-	shape-rendering: crispEdges;
+	/*shape-rendering: crispEdges;*/
 }
 
-.axis text {
+.x-axis text, .y-axis text {
 	font-family: sans-serif;
 	font-size: 10px;
 }
@@ -30,4 +30,21 @@ text {
 	font-family: sans-serif;
 	font-size: 10px;
 	fill: #666666;
+}
+
+div.tooltip {
+	position: absolute;
+	max-width: 200px;
+	height: auto;
+	padding: 5px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	pointer-events: none; /* VERY IMPORTANT */
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.circle {
+	cursor: pointer;
 }
